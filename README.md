@@ -15,10 +15,5 @@ Initial release
 |eggd_update_runfolders     |1.0.0|
 |vcfeval_hap.py             |1.0.3|
 
-## What release of dias.py is required to run this workflow?
-
-Latest stable release: 1.4.0
-
-
 
 #### This workflow was made by EMEE GLH
