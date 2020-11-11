@@ -1,0 +1,25 @@
+{
+  "name": "dias_multi_v1.1.0",
+  "title": "dias_multi_v1.1.0",
+  "stages": [
+    {
+      "id": "stage-Fybykxj433GV7vJKFGf3yVkK",
+      "executable": "applet-FybygZ8433Gz0vPj3fVY7350"
+    },
+    {
+      "id": "stage-Fq1BPKj433Gx3K4Y8J35j0fv",
+      "executable": "applet-Fq1yZf84zYgF4bkF8XfBfPxX",
+      "input": {
+        "truth_vcf": {
+          "$dnanexus_link": "file-FjkzKVQ4yBGkQQg53bX957G7"
+        },
+        "high_conf_bed": {
+          "$dnanexus_link": "file-FjkzKPQ4yBGgBgJ6KvyZ563P"
+        },
+        "panel_bed": {
+          "$dnanexus_link": "file-Fq3J9BQ433Ggk8p1KZX1K617"
+        }
+      }
+    }
+  ]
+}
