@@ -2,16 +2,16 @@
 DNAnexus workflow definition file of dias_multi for germline analysis.
 
 -------
-## Current Version: 1.1.0
+## Current Version: 1.1.1
 
 ## Release Notes:
-Removed expected depth
+- update update_runfolders to v1.0.3
 
 ## What apps are used in this workflow?
 
 |  App 	| Version |
 |---	|---	|
-|eggd_update_runfolders     |1.0.2|
+|eggd_update_runfolders     |1.0.3|
 |vcfeval_hap.py             |1.0.3|
 
 ## What release of dias.py is required to run this workflow?
