@@ -1,6 +1,6 @@
 {
-  "name": "dias_multi_v1.1.1",
-  "title": "dias_multi_v1.1.1",
+  "name": "dias_multi_v1.2.0",
+  "title": "dias_multi_v1.2.0",
   "stages": [
     {
       "id": "stage-Fybykxj433GV7vJKFGf3yVkK",
@@ -18,6 +18,22 @@
         },
         "panel_bed": {
           "$dnanexus_link": "file-Fq3J9BQ433Ggk8p1KZX1K617"
+        }
+      }
+    },
+    {
+      "id": "stage-G5j1jJj433GpFY3v0JZQ2ZZ0",
+      "executable": "applet-G5YG1jj433Gv90BKJqXfvG4J"
+    },
+    {
+      "id": "stage-G5j1jvj433GYYY25B5jKxFYp",
+      "executable": "applet-G5Z0Q78433Gj16QGJP838zxg",
+      "input": {
+        "somalier_input": {
+          "$dnanexus_link": {
+            "outputField": "samples_tsv",
+            "stage": "stage-G5j1jJj433GpFY3v0JZQ2ZZ0"
+          }
         }
       }
     }
