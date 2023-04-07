@@ -1,14 +1,14 @@
 {
-  "name": "dias_multi_v1.2.0",
-  "title": "dias_multi_v1.2.0",
+  "name": "dias_multi_v2.0.0",
+  "title": "dias_multi_v2.0.0",
   "stages": [
     {
-      "id": "stage-Fybykxj433GV7vJKFGf3yVkK",
+      "id": "stage-update_runfolders",
       "executable": "applet-G40Vf48433GqJ8xZPqYPzqQZ"
     },
     {
-      "id": "stage-Fq1BPKj433Gx3K4Y8J35j0fv",
-      "executable": "applet-Fq1yZf84zYgF4bkF8XfBfPxX",
+      "id": "stage-vcfeval_happy",
+      "executable": "app-eggd_vcfeval_hap.py/1.2.0",
       "input": {
         "truth_vcf": {
           "$dnanexus_link": "file-FjkzKVQ4yBGkQQg53bX957G7"
@@ -22,17 +22,17 @@
       }
     },
     {
-      "id": "stage-G5j1jJj433GpFY3v0JZQ2ZZ0",
-      "executable": "applet-G5kKKFj433Gpv6Kp1136V5G5"
+      "id": "stage-somalier_relate",
+      "executable": "app-eggd_somalier_relate/1.1.0"
     },
     {
-      "id": "stage-G5j1jvj433GYYY25B5jKxFYp",
+      "id": "stage-somalier_relate2multiqc",
       "executable": "applet-G5Z0Q78433Gj16QGJP838zxg",
       "input": {
         "somalier_input": {
           "$dnanexus_link": {
             "outputField": "samples_tsv",
-            "stage": "stage-G5j1jJj433GpFY3v0JZQ2ZZ0"
+            "stage": "stage-somalier_relate"
           }
         }
       }
