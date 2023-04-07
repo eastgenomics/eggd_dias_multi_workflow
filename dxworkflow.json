@@ -8,18 +8,7 @@
     },
     {
       "id": "stage-vcfeval_happy",
-      "executable": "app-eggd_vcfeval_hap.py/1.2.0",
-      "input": {
-        "truth_vcf": {
-          "$dnanexus_link": "file-FjkzKVQ4yBGkQQg53bX957G7"
-        },
-        "high_conf_bed": {
-          "$dnanexus_link": "file-FjkzKPQ4yBGgBgJ6KvyZ563P"
-        },
-        "panel_bed": {
-          "$dnanexus_link": "file-Fq3J9BQ433Ggk8p1KZX1K617"
-        }
-      }
+      "executable": "app-eggd_vcfeval_hap.py/1.2.0"
     },
     {
       "id": "stage-somalier_relate",
