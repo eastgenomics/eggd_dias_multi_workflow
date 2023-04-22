@@ -1,18 +1,15 @@
 # dias_multi (DNAnexus Platform Workflow)
-DNAnexus workflow definition file of dias_multi for germline analysis.
+DNAnexus workflow definition file of dias_multi for germline analysis to be run once per sequencing run.
 
 -------
 ## Current Version: 2.0.0
-
-## Release Notes:
-- add somalier_relate and somalier_relate2multiqc to workflow
 
 ## What apps are used in this workflow?
 
 |  App 	| Version |
 |---	|---	|
 |eggd_update_runfolders     |1.0.3|
-|vcfeval_hap.py             |1.1.0|
+|vcfeval_hap.py             |1.2.0|
 |somalier_relate            |1.1.0|
 |somalier_relate2multiqc    |1.0.1|
 
