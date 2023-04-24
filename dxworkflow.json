@@ -20,8 +20,8 @@
       "input": {
         "somalier_input": {
           "$dnanexus_link": {
-            "outputField": "samples_tsv",
-            "stage": "stage-somalier_relate"
+            "stage": "stage-somalier_relate",
+            "outputField": "samples_tsv"
           }
         }
       }
