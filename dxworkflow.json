@@ -1,11 +1,7 @@
 {
-  "name": "dias_multi_v2.1.0",
-  "title": "dias_multi_v2.1.0",
+  "name": "dias_multi_v2.2.0",
+  "title": "dias_multi_v2.2.0",
   "stages": [
-    {
-      "id": "stage-update_runfolders",
-      "executable": "applet-G40Vf48433GqJ8xZPqYPzqQZ"
-    },
     {
       "id": "stage-vcfeval_happy",
       "executable": "app-eggd_vcfeval_hap.py/1.2.1"
