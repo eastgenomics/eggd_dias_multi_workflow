@@ -4,7 +4,7 @@
   "stages": [
     {
       "id": "stage-vcfeval_happy",
-      "executable": "app-eggd_vcfeval_hap.py/1.2.1"
+      "executable": "app-eggd_vcfeval_hap.py/1.2.2"
     },
     {
       "id": "stage-somalier_relate",

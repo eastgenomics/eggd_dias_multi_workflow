@@ -8,7 +8,7 @@ DNAnexus workflow definition file of dias_multi for germline analysis to be run 
 
 |  App 	| Version |
 |---	|---	|
-|vcfeval_hap.py             |1.2.1|
+|vcfeval_hap.py             |1.2.2|
 |somalier_relate            |1.1.0|
 |somalier_relate2multiqc    |1.0.1|
 
